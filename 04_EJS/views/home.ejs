@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EJS</title>
+  </head>
+  <body>
+    <h1>This is home</h1>
+
+    <!-- js Expression -->
+     <% %>
+    <!-- When you want to display values -->
+      <%= %>
+
+      <ul>
+      <% studentList.forEach((s)=>{%>
+
+       
+
+              <li><%= s.id %>
+              <%= s.name %></li>
+      <%}) %>
+    </ul>
+
+  
+  <a href="/add">add</a>
+  </body>
+</html>
